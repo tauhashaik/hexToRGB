@@ -42,3 +42,37 @@ body{
 #group{
     border: solid aqua 3px;
 }
+
+
+@media only screen and (min-width: 300px) {
+    #input1,
+    #input2,
+    #input3,
+    #output {
+        width: 100%; 
+    }
+
+    .header {
+        font-size: 18px;
+    }
+
+    #group {
+        border-width: 2px; 
+    }
+}
+@media only screen and (min-width: 720px) {
+    #input1,
+    #input2,
+    #input3,
+    #output {
+        width: 100%; 
+    }
+
+    .header {
+        font-size: 35px;
+    }
+
+    #group {
+        border-width: 2px; 
+    }
+}
